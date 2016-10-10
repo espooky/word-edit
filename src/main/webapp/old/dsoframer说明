@@ -1,0 +1,15 @@
+（开发环境）使用前先注册一下DSOFramer.ocx
+
+操作：将DSOFramer.ocx复制到C:\windows\system32目录下，
+
+开始->运行->regsvr32 DSOFramer.ocx , 系统会提示DSOFramer.ocx中的DllRegisterServer成功
+
+
+
+
+-- Add/modify columns 
+alter table ZY_ZSYTP add docUrl VARCHAR2(100);
+-- Add comments to the columns 
+comment on column ZY_ZSYTP.docUrl
+  is 'word模板路径';
+ 

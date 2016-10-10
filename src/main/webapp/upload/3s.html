@@ -1,0 +1,457 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">.b1{white-space-collapsing:preserve;}
+.b2{margin: 1.0in 1.25in 1.0in 1.25in;}
+.s1{font-variant:small-caps;}
+.s2{font-weight:bold;font-variant:small-caps;}
+.s3{font-weight:bold;}
+.p1{margin-top:0.33333334in;text-align:justify;hyphenate:auto;font-family:Times New Roman;font-size:18pt;}
+.p2{text-align:start;hyphenate:auto;font-family:Times New Roman;font-size:11pt;}
+.p3{margin-bottom:0.1388889in;text-align:start;hyphenate:auto;font-family:Times New Roman;font-size:11pt;}
+.p4{text-align:center;hyphenate:auto;font-family:Times New Roman;font-size:11pt;}
+.td1{width:1.91875in;padding-start:0.075in;padding-end:0.075in;border-bottom:thin solid black;border-left:thin solid black;border-right:thin solid black;border-top:thin solid black;}
+.td2{width:1.9194444in;padding-start:0.075in;padding-end:0.075in;border-bottom:thin solid black;border-left:thin solid black;border-right:thin solid black;border-top:thin solid black;}
+.td3{width:1.6701388in;padding-start:0.075in;padding-end:0.075in;border-bottom:thin solid black;border-left:thin solid black;border-right:thin solid black;border-top:thin solid black;}
+.td4{width:2.75625in;padding-start:0.075in;padding-end:0.075in;border-bottom:thin solid black;border-left:thin solid black;border-right:thin solid black;border-top:thin solid black;}
+.td5{width:1.3305556in;padding-start:0.075in;padding-end:0.075in;border-bottom:thin solid black;border-left:thin solid black;border-right:thin solid black;border-top:thin solid black;}
+.r1{keep-together:always;}
+.r2{height:0.4201389in;keep-together:always;}
+.r3{height:0.20694445in;keep-together:always;}
+.r4{height:0.21666667in;keep-together:always;}
+.r5{height:0.17708333in;keep-together:always;}
+.t1{table-layout:fixed;border-collapse:collapse;border-spacing:0;}
+</style>
+<meta content="Microsoft Office 用户" name="author">
+</head>
+<body class="b1 b2">
+<p class="p1">
+<span class="s1">	</span><span class="s2">136应用服务器整理规划</span>
+</p>
+<p class="p2">
+<span>	随着部门壮大，对部门应用服务器的使用也应该趋于规范化，对其目录的建立和文件的存放需要有明文规定去约束，对于用户和用户组的管理也应该更加清晰明确。</span>
+</p>
+<p class="p2">
+<span>一、首先对136应用服务器的/root、/home和/opt目录进行整理。</span>
+</p>
+<p class="p3">
+<span>1、/root目录</span>
+</p>
+<p class="p3">
+<span>1.1 现状</span>
+</p>
+<p class="p3">
+<img src="../test/0.png" style="width:5.7625in;height:1.4263889in;vertical-align:text-bottom;"></p>
+<p class="p3">
+<span>1.2 整理意见</span>
+</p>
+<table class="t1">
+<tbody>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span class="s3">文件（目录）名</span>
+</p>
+</td><td class="td1">
+<p class="p4">
+<span class="s3">描述</span>
+</p>
+</td><td class="td2">
+<p class="p4">
+<span class="s3">整理意见</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span>ethinksoft</span>
+</p>
+</td><td class="td1">
+<p class="p4">
+<span>象形软件</span>
+</p>
+</td><td class="td2">
+<p class="p4">
+<span>建议备份</span>
+</p>
+</td>
+</tr>
+<tr class="r2">
+<td class="td1">
+<p class="p4">
+<span>java/</span>
+</p>
+</td><td class="td1">
+<p class="p4">
+<span>测试（ LNTEST.class、LNTEST.java）</span>
+</p>
+</td><td class="td2">
+<p class="p4">
+<span>删除</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span>yantai_tourist_test2.txt</span>
+</p>
+</td><td class="td1">
+<p class="p4">
+<span>测试数据</span>
+</p>
+</td><td class="td2">
+<p class="p4">
+<span>删除</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span>yantai_tourist_test.txt</span>
+</p>
+</td><td class="td1">
+<p class="p4">
+<span>测试数据</span>
+</p>
+</td><td class="td2">
+<p class="p4">
+<span>删除</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span>R_MODEL</span>
+</p>
+</td><td class="td1">
+<p class="p4"></p>
+</td><td class="td2">
+<p class="p4"></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="p3"></p>
+<p class="p3">
+<span>2、/home目录</span>
+</p>
+<p class="p3">
+<span>2.1 现状</span>
+</p>
+<p class="p3">
+<img src="../test/16f4c.png" style="width:5.765972in;height:2.5465279in;vertical-align:text-bottom;"></p>
+<p class="p3">
+<span>2.2 整理意见</span>
+</p>
+<table class="t1">
+<tbody>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span class="s3">文件（目录）名</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span class="s3">描述</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span class="s3">整理意见</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span>download</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>包括.exe,jar,tar.gz等等</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>目录保留</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span>dqp</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>数据质量模块</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>建议备份</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span>jboss</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>贵阳市数据铁龙项目Demo</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>建议备份</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span>jboss-as-7.1.1.Final</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>山东联通综合分析系统测试版本</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>王晓倩使用中</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span>jboss-etl</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>数据整合项目</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>建议备份</span>
+</p>
+</td>
+</tr>
+<tr class="r3">
+<td class="td3">
+<p class="p4">
+<span>jboss-gover</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>贵阳市数据铁龙项目Demo（测试）</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>建议备份</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span>jboss-test</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>山东联通综合分析系统测试版本</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>王晓倩使用中</span>
+</p>
+</td>
+</tr>
+<tr class="r4">
+<td class="td3">
+<p class="p4">
+<span>MetaGrid</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>元数据处理</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>建议备份</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span>tomcat-share</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>数据共享</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>建议备份</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span>ts-etl</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>数据整合相关脚本和文件</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>建议备份</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td3">
+<p class="p4">
+<span>ustc</span>
+</p>
+</td><td class="td4">
+<p class="p4"></p>
+</td><td class="td5">
+<p class="p4"></p>
+</td>
+</tr>
+<tr class="r5">
+<td class="td3">
+<p class="p4">
+<span>wolfking</span>
+</p>
+</td><td class="td4">
+<p class="p4">
+<span>数据共享相关</span>
+</p>
+</td><td class="td5">
+<p class="p4">
+<span>建议备份</span>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="p3"></p>
+<p class="p3">
+<span>3、/opt目录</span>
+</p>
+<p class="p3">
+<span>3.1 现状</span>
+</p>
+<p class="p3">
+<img src="../test/3d1de.png" style="width:6.710417in;height:1.5395833in;vertical-align:text-bottom;"></p>
+<p class="p3"></p>
+<p class="p3">
+<span>3.2 处理意见</span>
+</p>
+<table class="t1">
+<tbody>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span class="s3">文件名称</span>
+</p>
+</td><td class="td1">
+<p class="p4">
+<span class="s3">具体描述</span>
+</p>
+</td><td class="td2">
+<p class="p4">
+<span class="s3">处理意见</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span>Agm-demo-service-1.0</span>
+</p>
+</td><td class="td1">
+<p class="p4">
+<span>数据采集</span>
+</p>
+</td><td class="td2">
+<p class="p4">
+<span>不处理</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span>Nginx-1.7.3</span>
+</p>
+</td><td class="td1">
+<p class="p4">
+<span>反向代理</span>
+</p>
+</td><td class="td2">
+<p class="p4">
+<span>不处理</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span>Pcre-8.35</span>
+</p>
+</td><td class="td1">
+<p class="p4"></p>
+</td><td class="td2">
+<p class="p4">
+<span>不处理</span>
+</p>
+</td>
+</tr>
+<tr class="r1">
+<td class="td1">
+<p class="p4">
+<span>Zlib-1.2.8</span>
+</p>
+</td><td class="td1">
+<p class="p4"></p>
+</td><td class="td2">
+<p class="p4">
+<span>不处理</span>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="p3"></p>
+<p class="p3">
+<span>4、总结</span>
+</p>
+<p class="p3">
+<span>	对于用户目录，根据具体的项目名称建立大的目录，再根据用途建立子目录。分门别类，有助于管理员管理服务器。</span>
+</p>
+<p class="p3"></p>
+<p class="p3"></p>
+<p class="p3">
+<span>二、用户的整理和管理</span>
+</p>
+<p class="p3">
+<span>当前的用户列表：</span>
+</p>
+<p class="p3">
+<img src="../test/5a011.png" style="width:5.7604165in;height:6.2881947in;vertical-align:text-bottom;"></p>
+<p class="p3">
+<span>其中jboss是贵阳发改委demo测试用户 ，ts-etl是数据整合测试用户，test 是测试用户。</span>
+</p>
+<p class="p3"></p>
+<p class="p3"></p>
+<p class="p3"></p>
+</body>
+</html>
